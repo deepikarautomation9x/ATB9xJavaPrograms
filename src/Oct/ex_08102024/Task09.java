@@ -2,6 +2,7 @@ package Oct.ex_08102024;
 
 public class Task09 {
     public static void main(String[] args)
+            // Printing table of 6 using printf() >> It replaces the value in the %
     {
         int a = 6;
         System.out.printf("%d * %d = %d",a,1, a*1);

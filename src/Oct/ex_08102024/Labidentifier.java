@@ -2,6 +2,7 @@ package Oct.ex_08102024;
 
 public class Labidentifier {
     public static void main(String[] args) {
+        //Rules of identifiers
 //        int a_ = 123;
 //        int _ = 123;
 //        int $ = 123;
