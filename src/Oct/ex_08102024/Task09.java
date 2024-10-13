@@ -5,6 +5,9 @@ public class Task09 {
             // Printing table of 6 using printf() >> It replaces the value in the %
     {
         int a = 6;
+        char ch ='b';
+        System.out.printf("%s * %s = %s",ch,ch,ch);
+        System.out.println();
         System.out.printf("%d * %d = %d",a,1, a*1);
         System.out.println();
         System.out.printf("%d * %d = %d",a,2, a*2);
