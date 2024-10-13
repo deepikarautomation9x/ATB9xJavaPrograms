@@ -28,11 +28,10 @@ public class Javaoperatores {
         System.out.println("OR operator value = " + (name1 || name2));
         System.out.println("NOT operator value = " + ( !name1 && !name2));
         System.out.println("******* (Java Unary Operators ) *************");
-        //Unary operators are used with only one operand.
-        // For example, ++ is a unary operator that increases the value of a variable by 1. That is, ++5 will return 6.
+        //Unary operators are used with only one operand.For example, ++ is a unary operator that increases the value of a variable by 1.
         System.out.println("Increment and Decrement Operators");
         // declare variable
-        int c=12 , d=12;
+        int c=10 , d=11;
         int result1,result2;
         // original value
         System.out.println("original value of c :" +c);
@@ -55,7 +54,5 @@ public class Javaoperatores {
         // System.out.println(result4);
         result4 =(februaryDays == 29)? "Not a leap year"  :"Leap year";
         System.out.println(result4);
-
-
     }
 }
