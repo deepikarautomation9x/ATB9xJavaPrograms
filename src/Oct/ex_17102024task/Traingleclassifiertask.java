@@ -17,7 +17,10 @@ public class Traingleclassifiertask {
         int side1 = sc.nextInt();
         int side2 = sc.nextInt();
         int side3 = sc.nextInt();
-        if (side1 == side2 && side1 == side3) {
+        //Always check negative case as well
+        if(side1<=0 || side2<= 0 || side3<=0){
+            System.out.println("Invalid input: Cant except negative numbers");
+        }else if (side1 == side2 && side1 == side3) {
             System.out.println("******Equilateral triangle ********");
         }else if(side1 == side2 || side1 == side3 || side2 == side3) {
             System.out.println("The triangle is isosceles.");
