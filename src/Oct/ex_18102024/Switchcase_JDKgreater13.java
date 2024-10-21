@@ -4,7 +4,7 @@ public class Switchcase_JDKgreater13 {
     public static void main(String[] args) {
         //JDK>13 onwards special facility to pass multiple cases 001.002.003
         int itemcode = 003;
-        switch(itemcode){
+        switch (itemcode){
             case 001, 002, 003:
                 System.out.println("All of the them are Electronic Gadget");
                 break;

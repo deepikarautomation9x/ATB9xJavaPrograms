@@ -1,12 +1,12 @@
 package Oct.ex_18102024;
 
-public class ifcondition_switchInterview {
+public class ifconswitchinterview {
     public static void main(String[] args) {
         int a = 10;
         switch (a){}      //output = Valid systax as int is allowed (Nothing is printed)
 
         //Example 2
-        public static void main(String[] args) {
+        /*public static void main(String[] args) {
             char ch = 'A'; // 65
             switch (ch) {
                 case 65:
@@ -27,9 +27,7 @@ public class ifcondition_switchInterview {
                     System.out.println("98");
 //            case 98: Dublicate cases not allowed
 //                System.out.println("98");
-            }
+            }*/
 
-        }
-    }
-    }
 }
+   }
