@@ -1,6 +1,6 @@
 package Tasks;
 import java.util.Scanner;
-public class Functiontask23Oct {
+public class    Functiontask23Oct {
         public static void main(String[] args) {
             System.out.println("Arithmetic Operaters");
             Scanner sc = new Scanner(System.in);
